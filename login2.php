@@ -28,7 +28,7 @@ if (isset($_POST['uname']) && isset($_POST['email'])) {
 		if (mysqli_num_rows($result) === 1) {
             echo "loggen in";
 			$row = mysqli_fetch_assoc($result);
-            if ($row['user_name'] === $uname || $row['password'] === $pass) {
+            if ($row['user_name'] === $uname && $row['password'] === $pass) {
             	$_SESSION['name'] = $row['user_name'];
             	$_SESSION['id'] = $row['user_id'];
             	header("Location: index.php");
