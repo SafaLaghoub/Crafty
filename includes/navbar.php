@@ -15,8 +15,8 @@
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="#!">All Products</a></li>
                                 <li><hr class="dropdown-divider" /></li>
-                                <li><a class="dropdown-item" href="#!">Jewellery</a></li>
-                                <li><a class="dropdown-item" href="#!">Paintings</a></li>
+                                <li><a class="dropdown-item" href="showProducts2.php">Jewellery</a></li>
+                                <li><a class="dropdown-item" href="showProducts1.php">Paintings</a></li>
                             </ul>
                         </li>
 
