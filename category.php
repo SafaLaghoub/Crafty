@@ -44,7 +44,7 @@ Categories
 </thead>
 <tbody>
 <?php
-	$query = "SELECT * FROM products WHERE category_id =1";
+	$query = "SELECT * FROM products";
 	$query_run = mysqli_query ($connection,$query);
    // $category = getAll("products");
     echo mysqli_num_rows($query_run);

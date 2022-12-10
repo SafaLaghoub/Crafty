@@ -9,6 +9,8 @@
                         <li class="nav-item"><a class="nav-link" href="login.php">Log In</a></li>
                         <li class="nav-item"><a class="nav-link" href="#!">About Us</a></li>
                         <li class="nav-item"><a class="nav-link" href="add-category.php">Add category</a></li>
+                        <li class="nav-item"><a class="nav-link" href="add-product.php">Add Product</a></li>
+
 
 <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
